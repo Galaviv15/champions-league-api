@@ -1,0 +1,13 @@
+.Main{
+    height: 100%;
+    width: 100%;
+}
+
+
+.Main>h1{
+    color: brown;
+    font-size: 5rem;
+    text-align: center;
+}
+
+

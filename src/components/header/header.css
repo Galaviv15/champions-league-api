@@ -1,0 +1,76 @@
+.Header{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rgba(21, 1, 91, 0.568);
+    justify-content: space-between;
+}
+
+.icon-bars{
+    position: absolute;
+    font-size: 2rem;
+    color: #fff;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+.logo-name-container{
+    display: flex;
+    margin-left: 25px;
+    gap: 15px;
+    height: 100%;
+    align-items: center;
+}
+
+.logo-name-container .champions-logo{
+    height: 65px;
+    width: 65px;
+}
+
+.logo-name-container .champions-name{
+    font-size: 2rem;
+    color: #fff;
+    font-family: Lato;
+    letter-spacing: 2px;
+}
+
+
+.links-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 15px;
+    font-family: Rubik;
+    margin-right: 15px;
+}
+
+.links-container .header-links{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .logo-name-container{
+        margin-left: 15px;
+    }
+
+    .links-container .link{
+        display: none;
+    }
+
+    .logo-name-container .champions-name{
+        font-size: 1.5rem;
+    }
+
+    .icon-bars{
+        display: flex;
+    }
+}

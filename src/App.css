@@ -1,0 +1,67 @@
+.App{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: url("/public/images/champions-league-bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+}
+
+.middle{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1020px) and (max-width: 1360px){
+    .App{
+        height: 140vh;
+    }
+    .middle{
+        display: flex;
+        height: 120vh;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1020px) {
+    .App{
+        height: 170vh;
+    }
+
+    .middle{
+        display: flex;
+        height: 120vh;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 700px) {
+    .App{
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .App{
+        height: 175vh;
+    }
+}
+
+
